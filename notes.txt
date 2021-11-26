@@ -1,0 +1,5 @@
+yarn prisma init
+yarn prisma migrate dev --name CreatedFirstTables
+yarn prisma studio
+yarn prisma introspect # isso cria o schema do prisma com base em um banco de dados já existente
+yarn prisma generate
